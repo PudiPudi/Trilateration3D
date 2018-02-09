@@ -17,10 +17,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		77D64A11EE95B128CF819F7F /* Pods-Trilateration3D_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trilateration3D_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trilateration3D_Tests/Pods-Trilateration3D_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		80B27BB190E79BD487F2290E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A01417591C5586FC6620064B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		80B27BB190E79BD487F2290E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A01417591C5586FC6620064B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EF91D4475DC51809ECAE2F45 /* Pods_Trilateration3D_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trilateration3D_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1310C6B08E83EB4D0E1B6F8 /* Trilateration3D.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Trilateration3D.podspec; path = ../Trilateration3D.podspec; sourceTree = "<group>"; };
+		F1310C6B08E83EB4D0E1B6F8 /* Trilateration3D.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Trilateration3D.podspec; path = ../Trilateration3D.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,10 +131,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -343,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 77D64A11EE95B128CF819F7F /* Pods-Trilateration3D_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -364,6 +361,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 45F09EE0E92B88CF615DAFD9 /* Pods-Trilateration3D_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

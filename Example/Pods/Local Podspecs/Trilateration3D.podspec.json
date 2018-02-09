@@ -1,0 +1,22 @@
+{
+  "name": "Trilateration3D",
+  "version": "0.1.0",
+  "summary": "A short description of Trilateration3D.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pudipudi/Trilateration3D",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pudipudi": "ludovic.marchand@hotmail.be"
+  },
+  "source": {
+    "git": "https://github.com/pudipudi/Trilateration3D.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Trilateration3D/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module Trilateration3D {
+  umbrella header "Trilateration3D-umbrella.h"
+
+  export *
+  module * { export * }
+}

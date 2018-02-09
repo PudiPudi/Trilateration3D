@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Trilateration3D'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Trilateration3D.'
+  s.summary          = 'Perform Trilateration using 3points.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Swift implementation of the Trilateration derivation found on wikipedia.
+Finds a Possition from 3 known positions and their distance from the position we are looking for.
+
+This library does not depends on other libraries, it includes the geometric functions needed to solve the trilateration.
+
+Code based on js adaptation of the derivation found on wikipedia.
+Github of where code is based off: https://github.com/gheja/trilateration.js
+Wikipedia page of Trilateration: https://en.wikipedia.org/wiki/Trilateration
                        DESC
 
   s.homepage         = 'https://github.com/pudipudi/Trilateration3D'
