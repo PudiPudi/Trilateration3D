@@ -1,0 +1,7 @@
+use_frameworks!
+target 'Trilateration3D_Tests' do
+  pod 'Trilateration3D', :path => '../'
+  
+  pod 'Quick', '~> 1.2.0'
+    pod 'Nimble', '~> 7.0.2'
+end
