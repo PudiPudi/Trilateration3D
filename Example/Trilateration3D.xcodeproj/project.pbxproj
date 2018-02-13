@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		823616A9203351EB002D5EF9 /* Trilateration3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823616A8203351EB002D5EF9 /* Trilateration3DTests.swift */; };
 		C4939B55EE3CC098CAA31D90 /* Pods_Trilateration3D_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF91D4475DC51809ECAE2F45 /* Pods_Trilateration3D_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -18,6 +19,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		77D64A11EE95B128CF819F7F /* Pods-Trilateration3D_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trilateration3D_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trilateration3D_Tests/Pods-Trilateration3D_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		80B27BB190E79BD487F2290E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		823616A8203351EB002D5EF9 /* Trilateration3DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trilateration3DTests.swift; sourceTree = "<group>"; };
 		A01417591C5586FC6620064B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EF91D4475DC51809ECAE2F45 /* Pods_Trilateration3D_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trilateration3D_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1310C6B08E83EB4D0E1B6F8 /* Trilateration3D.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Trilateration3D.podspec; path = ../Trilateration3D.podspec; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				823616A8203351EB002D5EF9 /* Trilateration3DTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				823616A9203351EB002D5EF9 /* Trilateration3DTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
