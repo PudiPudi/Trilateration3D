@@ -7,10 +7,22 @@
 
 import Foundation
 
-struct Vector3 {
-    var x: Float = Float()
-    var y: Float = Float()
-    var z: Float = Float()
+public struct Vector3 {
+    public var x: Float = Float()
+    public var y: Float = Float()
+    public var z: Float = Float()
+    
+    public init() {
+        self.x = Float()
+        self.y = Float()
+        self.z = Float()
+    }
+    
+    public init(x: Float, y: Float, z: Float) {
+        self.x = x
+        self.y = y
+        self.z = z
+    }
     
     func substract(_ v: Vector3) -> Vector3 {
         return Vector3(
@@ -63,15 +75,27 @@ struct Vector3 {
     }
 }
 
-struct Position {
-    var loc: Vector3 = Vector3()
-    var range: Float = Float()
-    var name: String = String()
+public struct Position {
+    public var loc: Vector3
+    public var range: Float
+    public var name: String
+    
+    public init() {
+        self.loc = Vector3()
+        self.range = Float()
+        self.name = String()
+    }
+    
+    public init(location: Vector3, range: Float, name: String = "") {
+        self.loc = location
+        self.range = range
+        self.name = name
+    }
 }
 
 
 
-func trilaterate(p1: Position, p2: Position, p3: Position, returnMiddle: Bool = false) -> [Vector3]? {
+public func trilaterate(p1: Position, p2: Position, p3: Position, returnMiddle: Bool = false) -> [Vector3]? {
     
     // Helping functions
     //  - Trilateeration
